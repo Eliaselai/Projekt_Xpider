@@ -1,0 +1,409 @@
+@charset "UTF-8";
+* {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*Erste Kontainer*/
+.KONT1 {
+  width: 100%;
+  height: 1100px;
+  background-image: url(../recursos/img/BG.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*Grupo de tarjetas*/
+}
+
+.KONT1 ul {
+  list-style: none;
+  color: #ffff;
+}
+
+.KONT1 .logo-text {
+  margin: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+}
+
+.KONT1 .tela {
+  display: inline;
+}
+
+.KONT1 h1 {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.KONT1 li {
+  padding: 10px;
+  display: inline;
+  font-weight: bold;
+}
+
+.KONT1 .boton-personalizado {
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  color: #005BBB;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: #ffffff;
+}
+
+.KONT1 .boton-personalizado:hover {
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: #005BBB;
+}
+
+.KONT1 p {
+  color: #ffffff;
+  width: 60%;
+  margin-left: 18%;
+  margin-right: 25%;
+  text-align: center;
+}
+
+.KONT1 h1 {
+  color: #ffffff;
+  width: 60%;
+  margin-left: 18%;
+  margin-right: 25%;
+  padding-top: 150px;
+}
+
+.KONT1 .card1,
+.KONT1 .card2,
+.KONT1 .card3 {
+  border: 3px solid #ffff;
+  border-radius: 10px;
+  width: 300px;
+  height: 350px;
+  margin: 50px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.KONT1 .card1 img,
+.KONT1 .card2 img,
+.KONT1 .card3 img {
+  margin-top: 50px;
+  margin-bottom: 35px;
+}
+
+.KONT1 .card1 hr,
+.KONT1 .card2 hr,
+.KONT1 .card3 hr {
+  width: 75%;
+  margin-left: 35px;
+}
+
+.KONT1 .card1 h3,
+.KONT1 .card2 h3,
+.KONT1 .card3 h3 {
+  padding-top: 50px;
+}
+
+.KONT1 .card1:hover,
+.KONT1 .card2:hover,
+.KONT1 .card3:hover {
+  border: none;
+  background-color: #005BBB;
+  border-radius: none;
+  width: 300px;
+  height: 350px;
+  margin: 50px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.KONT1 .card1:hover img,
+.KONT1 .card2:hover img,
+.KONT1 .card3:hover img {
+  margin-top: 50px;
+  margin-bottom: 35px;
+}
+
+.KONT1 .card1:hover hr,
+.KONT1 .card2:hover hr,
+.KONT1 .card3:hover hr {
+  width: 75%;
+  margin-left: 35px;
+}
+
+.KONT1 .card1:hover h3,
+.KONT1 .card2:hover h3,
+.KONT1 .card3:hover h3 {
+  padding-top: 50px;
+}
+
+/*Erste Kontainer*/
+/*Zweiste Kontainer*/
+.KONT2 {
+  background-color: #030821;
+  height: 200px;
+  border: none;
+  color: #ffffff;
+}
+
+.KONT2 p,
+.KONT2 h2 {
+  text-align: center;
+}
+
+/*dritte Kontainer*/
+.KONT3 {
+  background-color: #030821;
+  height: 600px;
+  border: none;
+  color: #ffffff;
+}
+
+.KONT3 h3 {
+  position: relative;
+  left: 40px;
+}
+
+.KONT3 p {
+  text-align: justify;
+}
+
+.KONT3 a {
+  text-decoration: none;
+}
+
+/*vierte Kontainer*/
+.KONT4 {
+  background-color: #030821;
+  height: 600px;
+  border: none;
+  color: #ffffff;
+}
+
+.KONT4 .Findout {
+  color: #ffffff;
+}
+
+.KONT4 h4,
+.KONT4 h3,
+.KONT4 p {
+  padding-bottom: 15px;
+  text-align: justify;
+}
+
+.KONT4 h4,
+.KONT4 p {
+  color: #8b8d8f;
+}
+
+.KONT4 .Findout:hover {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  -webkit-text-decoration-color: #ffffff;
+          text-decoration-color: #ffffff;
+  -webkit-text-decoration-style: solid double;
+          text-decoration-style: solid double;
+}
+
+/*vierte Kontainer*/
+/*fünfte Kontainer*/
+.KONT5 {
+  background-color: #2342e0;
+  height: 800px;
+  border: none;
+  color: #ffffff;
+}
+
+.KONT5 h4,
+.KONT5 h3 {
+  padding-bottom: 15px;
+  text-align: justify;
+}
+
+.KONT5 p {
+  text-align: justify;
+}
+
+.KONT5 h3 {
+  font-weight: 800;
+}
+
+.KONT5 .col1 {
+  padding-top: 150px;
+}
+
+.KONT5 .col3 {
+  padding-top: 200px;
+  padding-left: 50px;
+}
+
+.KONT5 .fila {
+  padding-top: 110px;
+}
+
+/*fünfte Kontainer*/
+/*sechste Kontainter*/
+.KONT6 {
+  background-color: #1a255e;
+  height: 900px;
+  border: none;
+  color: #ffffff;
+}
+
+.KONT6 h4 {
+  color: #8b7f7f;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.KONT6 h3 {
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+
+.KONT6 p {
+  text-align: justify;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  color: #030821;
+}
+
+.KONT6 h6 {
+  padding-bottom: 15px;
+  padding-top: 15px;
+  font-weight: bold;
+  color: #030821;
+}
+
+.KONT6 h6:hover {
+  text-decoration: underline;
+}
+
+.KONT6 a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/*sechste Kontainter*/
+/*siebste Kontainer*/
+.KONT7 {
+  background-color: #030821;
+  height: 1100px;
+  border: none;
+  color: #ffffff;
+}
+
+.KONT7 h3 {
+  position: relative;
+  left: 25px;
+}
+
+.KONT8 {
+  background-color: #292933;
+  height: 900px;
+  border: none;
+  color: #ffffff;
+}
+
+.KONT8 .q,
+.KONT8 h5,
+.KONT8 h6 {
+  margin-bottom: 25px;
+  padding: 0px;
+}
+
+.KONT8 q {
+  line-height: 35px;
+}
+
+/*achte Kontainer*/
+/*neunte Kontainer*/
+.KONT9 {
+  background-color: #005BBB;
+  height: 450px;
+  border: none;
+  color: #ffffff;
+}
+
+.KONT9 input[Type=email] {
+  color: #005BBB;
+  width: 300px;
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+}
+
+.KONT9 input[type=submit] {
+  color: #2342e0;
+  font-weight: bold;
+  width: 150px;
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+}
+
+.KONT9 input[type=submit]:focus {
+  color: #000000;
+  border: #030821;
+}
+
+/*neunte Kontainer*/
+/*zehntel Kontainer*/
+.KONT10 {
+  background-color: #030821;
+  height: 400px;
+  border: none;
+  color: #ffffff;
+}
+
+.KONT10 .logo-text {
+  margin: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+}
+
+.KONT10 ul {
+  list-style: none;
+}
+
+.KONT10 li {
+  padding-bottom: 15px;
+}
+
+.KONT10 .PPAL {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+/*zehntel Kontainer*/
+.KONT11 {
+  background-color: #37373b;
+  height: 55px;
+  border: none;
+  color: #ffffff;
+}
+
+.KONT11 ul {
+  list-style: none;
+}
+
+.KONT11 li {
+  display: inline;
+  padding: 15px;
+}
+
+.KONT11 p {
+  font-size: 14px;
+}
+
+/*zehntel Kontainer*/
+/*# sourceMappingURL=estilos.css.map */
